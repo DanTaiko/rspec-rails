@@ -25,7 +25,7 @@ gem 'nokogiri'
 gem 'rake'
 gem 'rack-cache'
 gem 'rubyzip'
-gem 'sqlite3', :platforms => [:mri]
+gem 'sqlite3', :platforms => [:ruby]
 
 if RUBY_VERSION >= '2.0.0' && RUBY_VERSION < '2.2.0'
   # our current rubocop version doesn't support the json version required by Ruby 2.4
